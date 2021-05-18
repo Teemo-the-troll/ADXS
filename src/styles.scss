@@ -1,1 +1,72 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap";
+
+.heading {
+  font-family: Arial, serif;
+  color: gray;
+}
+
+.formBody {
+  border: thin solid;
+  border-color: gray;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+.inputButton {
+  height: 100%;
+  width: 5rem;
+  background-color: #f8f3f3;
+  border-radius: 0rem;
+}
+
+.inputField {
+  height: 2rem;
+  width: 13rem;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, serif;
+  border: thin black solid;
+}
+
+.formButton {
+  background-color: #c4eafc;
+  border-radius: 0.25rem;
+}
+
+.formButton:hover {
+  background-color: #adc5d2;
+  transition: 0.5s;
+}
+
+a {
+  color: #047eb5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+input::placeholder {
+  font-size: 120%;
+  text-align: left;
+  margin: auto;
+}
+
+html {
+  background-image: url(background.png);
+  background-repeat: repeat;
+}
+
+body {
+  background-color: transparent;
+}

@@ -1,0 +1,15 @@
+<div class="formBody container" id="form">
+  <form class="flexColumn">
+    <h2 class="heading mx-5 mt-2">Přihlášení</h2>
+    <div class="input-container"><input [(ngModel)]="email" class="form-input-text" id="email" name="email"
+                                        placeholder="E-mail:" type="email">
+    </div>
+    <div class="input-container"><input [(ngModel)]="password" class="form-input-text" id="password" name="password"
+                                        placeholder="Heslo:"
+                                        type="password">
+    </div>
+    <button (click)="submit()" class="button formButton" id="submitButton">Přihlásit</button>
+    <div id="links"><span id="register">Jeste nemate ucet? <a routerLink="/register">Zalozit</a></span>
+      <span id="passReset"><a routerLink="/reset">Zapomenute heslo?</a></span></div>
+  </form>
+</div>
